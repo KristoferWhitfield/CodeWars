@@ -11,11 +11,19 @@ function numberToString(num) {
 
 function detect(comment) {
   let str = comment.split(' ')
-  if(str.includes('Can',[0]) && str.includes('someone',[1]) && str.includes('explain',[2])){
+  if(str[0].includes('Can') && str[1].includes('someone') && str[2].includes('explain')){
     return true
     }
       else {
         return false
       }
+
+}
+
+// Implement a function which convert the given boolean value into its string representation.
+
+function booleanToString(b){
+  //your code here
+    return b.toString()
 
 }
