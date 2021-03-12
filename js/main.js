@@ -27,3 +27,25 @@ function booleanToString(b){
     return b.toString()
 
 }
+
+// Your task is to make a function that can take any non-negative integer as an argument
+//  and return it with its digits in descending order. Essentially, rearrange the digits
+//  to create the highest possible number.
+
+function descendingOrder(n){
+  //...
+  let arr = Array.from(n.toString()).map(Number)
+
+  return parseInt(arr.sort ((a, b) => b - a).join(""))
+}
+
+// Write a function which calculates the average of the numbers in a given list.
+//
+// Note: Empty arrays should return 0
+
+function find_average(array) {
+  // your code here
+  return array.reduce((acc,current) => acc += current) / array.length
+
+
+}
