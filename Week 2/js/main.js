@@ -56,3 +56,13 @@ function maps(x){
   return doubledNumbers
 
 }
+//
+// Write a function called repeat_string which repeats the given string
+// str exactly count times.
+
+function repeatStr (n, s) {
+  if (n > 0)
+    return s.repeat(n);
+  else
+    return "";
+}
