@@ -66,3 +66,17 @@ function repeatStr (n, s) {
   else
     return "";
 }
+
+
+// In this simple assignment you are given a number and have to make it negative.
+//  But maybe the number is already negative?
+
+function makeNegative(num) {
+  // Code?
+  if (num < 0){
+    return num
+  }
+    else {
+      return  num * -1
+    }
+}
