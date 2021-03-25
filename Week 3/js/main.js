@@ -21,3 +21,16 @@ function mergeArrays(arr1, arr2) {
   let arr3 = arr1.concat(arr2).sort((a, b) => a - b)
   return arr3.filter((value, index) => arr3.indexOf(value) === index)
 }
+
+// Create a function that gives a personalized greeting.
+// This function takes two parameters: name and owner.
+
+function greet (name, owner) {
+  // Add code here
+  if(name === owner){
+    return "Hello boss"
+  }
+    else{
+      return "Hello guest"
+    }
+}
