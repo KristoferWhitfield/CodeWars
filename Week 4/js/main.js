@@ -1,4 +1,8 @@
-function mergeArrays(arr1, arr2) {
-  let arr3 = arr1.concat(arr2).sort((a, b) => a - b)
-  return arr3.filter((value, index) => arr3.indexOf(value) === index)
+function rentalCarCost(d) {
+  // Your solution here
+    let a = (40 * d) - 50
+    let b =  (40 * d) - 20
+
+    return b-a
+
 }
