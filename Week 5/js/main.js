@@ -16,8 +16,24 @@
 var replaceDots = function(str) {
   return str.replace('.', '-');
 }
-// 
+//
 // Implement a function named generateRange(min, max, step), which takes three
 //  arguments and generates a range of integers from min to max, with the step.
 //  The first integer is the minimum value, the second is the maximum of the range
 //   and the third is the step. (min < max)
+
+
+function peopleWithAgeDrink(old) {
+  if(old < 14){
+  return 'drink toddy'
+  }
+  else if (old >= 14 && old < 18 ){
+    return 'drink coke'
+  }
+  else if (old >= 18 && old < 21 ){
+    return 'drink beer'
+  }
+  else if (old >= 21 ){
+    return 'drink whisky'
+  }
+}
